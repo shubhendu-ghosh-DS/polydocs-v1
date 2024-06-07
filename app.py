@@ -89,8 +89,6 @@ def get_conversational_chain():
 
 def user_input(user_question):
     embeddings = GoogleGenerativeAIEmbeddings(model = "models/embedding-001")
-    print("embed is good")
-     
 
     
     new_db = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
@@ -103,7 +101,6 @@ def user_input(user_question):
         {"input_documents":docs, "question": user_question}
         , return_only_outputs=True)
 
-    print(response)
 
     st.markdown(f"""<p style="color: #000000;font-size: 15px;font-family: sans-serif; text-align:left;margin-bottom: 0px; height: 5px">{response["output_text"]}</p>""", unsafe_allow_html=True)
 
