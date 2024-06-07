@@ -104,4 +104,4 @@ langchain-community
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the apache-2.0 License.
