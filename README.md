@@ -31,7 +31,7 @@ To run this application locally, follow these steps:
 1. **Clone the repository:**
 
 ````
-git clone https://github.com/yourusername/polydocs.git
+git clone https://github.com/shubhendu-ghosh-DS/polydocs.git
 cd polydocs
 ````
 2. **Set up a virtual environment (optional but recommended):**
