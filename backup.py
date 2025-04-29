@@ -40,6 +40,10 @@ a:hover, a:active {
 </div>
 """
 
+
+
+
+
 # Function to extract text from PDF
 def get_pdf_text(pdf_docs):
     text = ""
