@@ -42,8 +42,6 @@ a:hover, a:active {
 
 
 
-
-
 # Function to extract text from PDF
 def get_pdf_text(pdf_docs):
     text = ""
